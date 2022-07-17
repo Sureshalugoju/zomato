@@ -1,0 +1,17 @@
+Step1: visit below link for downloading git
+https://git-scm.com/download/win
+
+Step2: goto download folder and find git-2.37....exe then Double click on exe file
+
+Step3: click on next next until close button
+
+Step4: Start -> git Bash -> gitbash command prompt window opened
+
+Step4: learn how to use pwd,ls,cd, clear ....etc
+Examples:  
+$pwd     --> present working directory
+$ls -list of all files in current directory
+$cd /f/Suresh_Repo/  --> to change the directory/folder
+$clear --> clear screen
+
+
