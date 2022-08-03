@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>SWITCH CASE</title>
+    </head>
+    <body>
+        <script>
+            var age = prompt('Enter your age');
+
+            age = parseInt(age);
+
+
+            var marks = '100';
+            console.log('Before convert',typeof marks);
+            marks = parseInt(marks);
+            console.log('After convert',typeof marks);
+
+            switch(age){
+                case 25:{
+                    console.log('Your age is 25 years');
+                }
+                break;
+                case 50:{
+                    console.log('Your age is 50 years');
+                }
+                break;
+                case 70:{
+                    console.log('Your age is 70 years');
+                }
+                break;
+                case 90:{
+                    console.log('Your age is 90 years');
+                }
+                break;
+                default:{
+                    console.log('enter right age');
+                }
+            }
+        </script>
+    </body>
+</html>

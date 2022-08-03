@@ -1,0 +1,27 @@
+<html>
+  <head> </head>
+  <body>
+    <script>
+      var total_Marks = 100;
+      var student_Marks = 75;
+
+      if ((student_Marks >= 35) && (student_Marks <= 100))    // Ex-1 ==>  ((200 >= 35) && (200 <=100))  -> ((true) && (false))  > false
+      //Ex-2 ==> ((75 >= 35) && (75 <= 100)) --> ((true) && (true)) -->true
+
+      // Ex-3 ==> ((25 >= 35) && (25 <= 100)) --> ((false) && (true)) --> false
+      {
+        console.log("You are Pass");
+      } 
+      else  
+      if(student_Marks >= total_Marks )  // (200 >= 100)  -> true 
+      //Ex-3  (25 >= 100) -> false
+      {     
+        console.log("Above 100 marks are not valid score");
+      }
+      else
+      {
+        console.log("You are fail");
+      }
+    </script>
+  </body>
+</html>
